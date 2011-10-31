@@ -102,7 +102,7 @@ a:hover {
 
 #main #page #subheader h2 span {
 	font-family: BebasNeueRegular;
-	color:#d7fdb8;
+	color:#fff600;
 }
 
 #main #page #subheader .register a {
@@ -160,8 +160,9 @@ a:hover {
 	margin:40px 0px 20px 0px;
 }
 
-#main #page #content h4.interested {
+#main #page #content h4.interested a {
 	background:url(../img/interested.png) no-repeat;
+	display:block	;
 	width:448px;
 	height:52px;
 	text-indent:-9999px;
