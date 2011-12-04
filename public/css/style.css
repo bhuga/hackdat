@@ -239,7 +239,7 @@ a:hover {
 }
 
 #main #page #content .sponsors ul li {
-	padding-right:35px;
+	padding:0px 13px 10px 13px;
 	float:left;
 }
 
@@ -251,11 +251,23 @@ a:hover {
 }
 
 #main #page #content .sponsors ul li.launchpad a {
-	background:url(../img/launchpad.png) no-repeat center left;
+	background:url(../img/launchpad.png) no-repeat center center;
 }
 
 #main #page #content .sponsors ul li.iseatz {
-	background:url(../img/iseatz.png) no-repeat center left;
+	background:url(../img/iseatz.png) no-repeat center center;
+}
+
+#main #page #content .sponsors ul li.flatstack {
+	background:url(../img/flat_stack.png) no-repeat center center;
+}
+
+#main #page #content .sponsors ul li.launchpad-ignition {
+	background:url(../img/launchpad_ignition.png) no-repeat center center;
+}
+
+#main #page #content .sponsors ul li.zingboard {
+	background:url(../img/zingboard.png) no-repeat center center;
 }
 
 footer {
