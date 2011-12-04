@@ -270,6 +270,10 @@ a:hover {
 	background:url(../img/zingboard.png) no-repeat center center;
 }
 
+#main #page #content .sponsors ul li.gnoinc {
+	background:url(../img/gnoinc.png) no-repeat center center;
+}
+
 footer {
 	background:#000;
 	padding:20px;	
