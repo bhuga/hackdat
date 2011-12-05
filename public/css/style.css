@@ -201,17 +201,17 @@ a:hover {
 	/*padding:10px;*/
 }
 
-/*#main #page #content .prizes .prize h5 {
+#main #page #content .prizes .prize h5 {
 	width:213px;
 	height:125px;
 	text-indent:-9999px;
-}*/
+}
 
-#main #page #content .prizes .prize h5 {
+/*#main #page #content .prizes .prize h5 {
 	width:445px;
 	height:125px;
 	text-indent:-9999px;
-}
+}*/
 
 #main #page #content .prizes .grand h5 {
 	background:url(../img/grand_prize.png) no-repeat;
