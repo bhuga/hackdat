@@ -278,6 +278,11 @@ a:hover {
 	background:url(../img/kickboard.png) no-repeat center center;
 }
 
+#main #page #content .sponsors ul li.audiosocket {
+	background:url(../img/audiosocket.png) no-repeat center center;
+}
+
+
 footer {
 	background:#000;
 	padding:20px;	
