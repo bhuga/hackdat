@@ -282,6 +282,10 @@ a:hover {
 	background:url(../img/audiosocket.png) no-repeat center center;
 }
 
+#main #page #content .sponsors ul li.fedsample {
+	background:url(../img/fedsample.png) no-repeat center center;
+}
+
 
 footer {
 	background:#000;
