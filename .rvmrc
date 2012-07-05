@@ -1,4 +1,4 @@
-RVM_ENV="ruby-1.9.3@hackdat"
+RVM_ENV="ruby-1.9.2@hackdat"
 if [[ -d "${rvm_path:-$HOME/.rvm}/environments" \
   && -s "${rvm_path:-$HOME/.rvm}/environments/${RVM_ENV}" ]] ; then
   \. "${rvm_path:-$HOME/.rvm}/environments/${RVM_ENV}"
