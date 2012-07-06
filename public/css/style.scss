@@ -275,23 +275,57 @@ a:hover {
   background:url(../img/fedsample.png) no-repeat center center;
 }
 
-
-@media only screen and (min-width: 797px){
+@mixin floating-lis {
+  nav {
+    display: block;
+    ul li {
+      float:left;
+      padding:10px 12px;
+    }
+  }
+}
+@mixin stacked-lis {
+  nav {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+    ul li {
+      float: none;
+    }
+  }
+}
+@mixin two-column {
   #main #title {
     margin-top:200px;
     position:fixed;
+  }
+}
+@mixin one-column {
+  #title {
+    text-align: center;
     nav {
       display: inline-block;
-      margin: default 30px default 30px;
-
     }
+    .logo {
+      display: inline-block;
+    }
+    .logo::after {
+      content: "\A";
+      display: block;
+    }
+
   }
-  body::before{
-    content: "medium media query (797 - 960) fired";
+  #page {
+    float: none;
+    margin: 0 auto;
+  }
+}
+@mixin notify($size, $yellow) {
+  body::before {
+    content: "#{$size}px media query";
     font-weight: bold;
     display: block;
     text-align: center;
-    background: rgba(255,128,0, 0.9);   /* Semi-transparent yellow */
+    background: rgba(255,$yellow,0, 0.9);   /* Semi-transparent yellow */
     position: absolute;
     top: 0;
     left: 0;
@@ -300,35 +334,33 @@ a:hover {
   }
 }
 
-@media only screen and (min-width: 920px) {
-  nav {
-    ul li {
-      float:left;
-      padding:10px 12px;
-    }
-  }
+@media only screen and (min-width: 485px) and (max-width: 796px) {
+  @include floating-lis;
+  @include notify('485',64);
+  @include one-column;
+}
+
+@media only screen and (min-width: 797px) and (max-width: 919px){
+  @include two-column;
+  @include stacked-lis;
+  @include notify('797', 128);
+}
+
+@media only screen and (min-width: 920px) and (max-width: 960px) {
+  @include floating-lis;
+  @include two-column;
+  @include notify('920',198)
 
 }
 @media only screen and (min-width: 960px) {
+  @include floating-lis;
+  @include two-column;
+  @include notify('960',255);
   body {
     width: 960px;
   }
   #main #title nav {
-    display: block;
   }
-
-   body::before{
-        content: "large media query (> 960) fired";
-        font-weight: bold;
-        display: block;
-        text-align: center;
-        background: rgba(255,255,0, 0.9);   /* Semi-transparent yellow */
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 99;
-    }
 }
 
 footer {
