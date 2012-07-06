@@ -285,12 +285,12 @@ a:hover {
       font-size: 1.8em;
       height: auto;
       width: auto; }
-    #main #page #content h4.interested {
+    #main #page #content h4.interested, #main #page #content h4.register {
       border: 3px solid #666;
       border-radius: 4px;
       padding: 5px;
       background: #d16600; }
-      #main #page #content h4.interested a {
+      #main #page #content h4.interested a, #main #page #content h4.register a {
         color: white;
         background: none;
         text-indent: 0px;
