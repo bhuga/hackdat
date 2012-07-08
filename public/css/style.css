@@ -341,7 +341,7 @@ a:hover {
 @media only screen and (min-width: 797px) and (max-width: 919px) {
   #main #title {
     margin-top: 200px;
-    position: fixed; }
+    position: absolute; }
 
   nav {
     display: inline-block;
@@ -377,7 +377,7 @@ a:hover {
 
   #main #title {
     margin-top: 200px;
-    position: fixed; }
+    position: absolute; }
 
   body::before {
     content: "920px media query";
@@ -407,7 +407,7 @@ a:hover {
 
   #main #title {
     margin-top: 200px;
-    position: fixed; }
+    position: absolute; }
 
   body::before {
     content: "960px media query";

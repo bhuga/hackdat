@@ -292,7 +292,7 @@ a:hover {
 @mixin two-column {
   #main #title {
     margin-top:200px;
-    position:fixed;
+    position:absolute;
   }
 }
 @mixin one-column {
