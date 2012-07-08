@@ -64,7 +64,12 @@ a:hover {
 
 #main #page #subheader .date, #main #page #subheader .register {
   background: #000;
-  padding: 10px 22px; }
+  padding: 10px 0px;
+  text-align: center; }
+#main #page #subheader .date {
+  width: 240px; }
+#main #page #subheader .register {
+  width: 245px; }
 
 #main #page #subheader .date h2 {
   margin: 0px 0px;
@@ -79,9 +84,9 @@ a:hover {
   color: #fff600; }
 
 #main #page #subheader .register a {
-  display: block;
+  display: inline-block;
   background: url(../img/register.png);
-  width: 201px;
+  width: 200px;
   height: 23px;
   text-indent: -9999px; }
 
@@ -228,7 +233,7 @@ a:hover {
 #main #page #content .sponsors ul li.fedsample {
   background: url(../img/fedsample.png) no-repeat center center; }
 
-@media only screen and (max-width: 484px) {
+@media only all and (max-width: 484px) {
   #title {
     text-align: center;
     width: 485px;
@@ -250,7 +255,6 @@ a:hover {
     display: block;
     text-align: center;
     background: rgba(255, 0, 0, 0.9);
-    /* Semi-transparent yellow */
     position: absolute;
     top: 0;
     left: 0;
@@ -297,7 +301,7 @@ a:hover {
         font-size: 1.4em;
         width: auto;
         height: auto; } }
-@media only screen and (min-width: 485px) and (max-width: 796px) {
+@media only all and (min-width: 485px) and (max-width: 796px) {
   nav {
     display: block; }
     nav ul li {
@@ -310,7 +314,6 @@ a:hover {
     display: block;
     text-align: center;
     background: rgba(255, 64, 0, 0.9);
-    /* Semi-transparent yellow */
     position: absolute;
     top: 0;
     left: 0;
@@ -338,7 +341,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; } }
-@media only screen and (min-width: 797px) and (max-width: 919px) {
+@media only all and (min-width: 797px) and (max-width: 919px) {
   #main #title {
     margin-top: 200px;
     position: absolute; }
@@ -355,7 +358,6 @@ a:hover {
     display: block;
     text-align: center;
     background: rgba(255, 128, 0, 0.9);
-    /* Semi-transparent yellow */
     position: absolute;
     top: 0;
     left: 0;
@@ -368,7 +370,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; } }
-@media only screen and (min-width: 920px) and (max-width: 960px) {
+@media only all and (min-width: 920px) and (max-width: 959px) {
   nav {
     display: block; }
     nav ul li {
@@ -385,7 +387,6 @@ a:hover {
     display: block;
     text-align: center;
     background: rgba(255, 198, 0, 0.9);
-    /* Semi-transparent yellow */
     position: absolute;
     top: 0;
     left: 0;
@@ -398,7 +399,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; } }
-@media only screen and (min-width: 960px) {
+@media only all and (min-width: 960px) {
   nav {
     display: block; }
     nav ul li {
@@ -415,7 +416,6 @@ a:hover {
     display: block;
     text-align: center;
     background: rgba(255, 255, 0, 0.9);
-    /* Semi-transparent yellow */
     position: absolute;
     top: 0;
     left: 0;
