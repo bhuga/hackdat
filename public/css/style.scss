@@ -381,6 +381,7 @@ a:hover {
   }
 }
 @mixin notify($size, $yellow) {
+  /*
   body::before {
     content: "#{$size}px media query";
     font-weight: bold;
@@ -393,6 +394,7 @@ a:hover {
     right: 0;
     z-index: 99;
   }
+  */
 }
 
 @media only all and (max-width: 484px) {

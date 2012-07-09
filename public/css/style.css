@@ -249,18 +249,20 @@ a:hover {
     float: none;
     margin: 0 auto; }
 
+  /*
   body::before {
-    content: "480px media query";
+    content: "#{$size}px media query";
     font-weight: bold;
     display: block;
     text-align: center;
-    background: rgba(255, 0, 0, 0.9);
+    background: rgba(255,$yellow,0, 0.9);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99; }
-
+    z-index: 99;
+  }
+  */
   nav {
     display: block; }
     nav ul li {
@@ -310,18 +312,20 @@ a:hover {
       float: left;
       padding: 10px 12px; }
 
+  /*
   body::before {
-    content: "485px media query";
+    content: "#{$size}px media query";
     font-weight: bold;
     display: block;
     text-align: center;
-    background: rgba(255, 64, 0, 0.9);
+    background: rgba(255,$yellow,0, 0.9);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99; }
-
+    z-index: 99;
+  }
+  */
   #title {
     text-align: center;
     width: 485px;
@@ -354,18 +358,20 @@ a:hover {
     nav ul li {
       float: none; }
 
+  /*
   body::before {
-    content: "797px media query";
+    content: "#{$size}px media query";
     font-weight: bold;
     display: block;
     text-align: center;
-    background: rgba(255, 128, 0, 0.9);
+    background: rgba(255,$yellow,0, 0.9);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99; }
-
+    z-index: 99;
+  }
+  */
   html {
     background: url(../img/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -383,18 +389,20 @@ a:hover {
     margin-top: 200px;
     position: absolute; }
 
+  /*
   body::before {
-    content: "920px media query";
+    content: "#{$size}px media query";
     font-weight: bold;
     display: block;
     text-align: center;
-    background: rgba(255, 198, 0, 0.9);
+    background: rgba(255,$yellow,0, 0.9);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99; }
-
+    z-index: 99;
+  }
+  */
   html {
     background: url(../img/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -412,18 +420,20 @@ a:hover {
     margin-top: 200px;
     position: absolute; }
 
+  /*
   body::before {
-    content: "960px media query";
+    content: "#{$size}px media query";
     font-weight: bold;
     display: block;
     text-align: center;
-    background: rgba(255, 255, 0, 0.9);
+    background: rgba(255,$yellow,0, 0.9);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99; }
-
+    z-index: 99;
+  }
+  */
   html {
     background: url(../img/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
