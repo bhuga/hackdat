@@ -278,7 +278,9 @@ a:hover {
 
   #main #page {
     width: auto; }
-    #main #page #subheader div {
+    #main #page #subheader .date, #main #page #subheader .register {
+      display: block;
+      width: auto;
       float: none;
       text-align: center; }
     #main #page #subheader .register a {

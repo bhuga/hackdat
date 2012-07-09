@@ -338,7 +338,9 @@ a:hover {
   #main #page {
     width: auto;
     #subheader {
-      div {
+      .date, .register {
+        display: block;
+        width: auto;
         float: none;
         text-align: center;
       }
