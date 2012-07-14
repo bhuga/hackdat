@@ -1,3 +1,6 @@
+$orange-text-color: #fdba95;
+$darker-orange: darken($orange-text-color, 25%);
+
 html {
   background-color: #506ba8;
   height: 100%;
@@ -183,6 +186,14 @@ a:hover {
   height:11px;
   text-indent:-9999px;
   margin:40px 0 20px 0px;
+}
+
+#main #page #content h4.returning {
+  background-color: black;
+  color: $darker-orange;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 1.8em;
 }
 
 #main #page #content .prizes {
